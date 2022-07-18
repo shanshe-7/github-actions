@@ -13,6 +13,6 @@ jobs:
           pwd
           ls -a
           echo $GITHUB_SHA
-          echo $GITHUB_REPOSITORy
+          echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
-          echo "{{ github.token }}"
+          echo "${{ github.token }}"
